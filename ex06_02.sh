@@ -6,4 +6,4 @@ do
     #awk -v var="$word" '!/var/' $i > temp && mv temp $i	#another way to do it
     printf "Deleting word '$word' in file:  $i.\n" 
 done
-#Example: sh ex06_02.sh ~/text_files/1.txt ~/text_files/2.txt /etc/passwd  
+#Example: sh ex06_02.sh ~/text_files/1.txt ~/text_files/2.txt ~/text_files/3.txt
