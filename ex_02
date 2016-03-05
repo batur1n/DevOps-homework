@@ -1,0 +1,6 @@
+# vim my_table, enter data
+# :wq
+# cat my_table
+# sort -k1 -n my_table > my_table2
+# vim my_table, v (visual mode), then y (yank) and p (paste)
+# cat my_table2
